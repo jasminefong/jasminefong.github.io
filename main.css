@@ -477,8 +477,11 @@
   }
   
   .img-fluid {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
+    display: block;
+    margin: auto;
+    padding-bottom: 3rem;
   }
   
   .img-thumbnail {
@@ -4063,12 +4066,12 @@
   .nav-link {
     display: block;
     padding: 0.5rem 1rem;
-    color: black;
+    color: white;
   }
   
   .nav-link:hover, .nav-link:focus {
     text-decoration: none;
-    color: gray;
+    color: var(--info);
   }
   
   .nav-link.disabled {
@@ -6583,8 +6586,9 @@
   }
   
   .bg-dark {
-    background-color: #343a40 !important;
+    background-color: #191919 !important;
   }
+
   
   a.bg-dark:hover, a.bg-dark:focus,
   button.bg-dark:hover,

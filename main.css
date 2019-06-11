@@ -4063,10 +4063,12 @@
   .nav-link {
     display: block;
     padding: 0.5rem 1rem;
+    color: black;
   }
   
   .nav-link:hover, .nav-link:focus {
     text-decoration: none;
+    color: gray;
   }
   
   .nav-link.disabled {
@@ -4075,18 +4077,21 @@
     cursor: default;
   }
   
+  /*
   .nav-tabs {
     border-bottom: 1px solid #dee2e6;
   }
+  */
   
   .nav-tabs .nav-item {
     margin-bottom: -1px;
   }
   
   .nav-tabs .nav-link {
-    border: 1px solid transparent;
-    border-top-left-radius: 0.25rem;
+    border-bottom: 1px solid transparent;
+    /*border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
+    */
   }
   
   .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
@@ -6568,7 +6573,7 @@
   }
   
   .bg-light {
-    background-color: #f8f9fa !important;
+    background-color: #fff !important;
   }
   
   a.bg-light:hover, a.bg-light:focus,
